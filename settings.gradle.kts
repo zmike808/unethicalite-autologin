@@ -35,14 +35,14 @@ rootProject.name = "unethicalite-plugins"
 //include("hoot-notifier")
 //include("hoot-karambwanfisher")
 
-include("unethical-butler")
-include("unethical-kebab-buyer")
+//include("unethical-butler")
+//include("unethical-kebab-buyer")
 include("unethical-autologin")
-include("unethical-oneclick")
-include("unethical-agility")
-include("unethical-prayer")
-include("unethical-explorer")
-include("unethical-chopper")
+//include("unethical-oneclick")
+//include("unethical-agility")
+//include("unethical-prayer")
+//include("unethical-explorer")
+//include("unethical-chopper")
 //include("example-kotlin")
 
 for (project in rootProject.children) {

@@ -13,9 +13,9 @@ plugins {
     kotlin("jvm") version "1.6.21"
 }
 
-project.extra["GithubUrl"] = "https://github.com/unethicalite/unethicalite-plugins-release"
-project.extra["GithubUserName"] = "unethicalite"
-project.extra["GithubRepoName"] = "unethicalite-plugins-release"
+project.extra["GithubUrl"] = "https://github.com/zmike808/unethicalite-autologin"
+project.extra["GithubUserName"] = "zmike808"
+project.extra["GithubRepoName"] = "unethicalite-autologin"
 
 apply<BootstrapPlugin>()
 

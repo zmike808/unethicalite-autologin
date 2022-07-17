@@ -53,6 +53,11 @@ public class UnethicalAutoLoginPlugin extends Plugin
 		{
 			prepareLogin();
 		}
+		// handle if you got logged out after the hard 6 hour limit?
+		else if(e.getGameState() == GameState.LOGIN_SCREEN) {
+			prepareLogin();
+			client.getCallbacks().post(new LoginStateChanged(2));
+		}
 	}
 
 	@Subscribe
