@@ -1,0 +1,14 @@
+[{
+  "projectUrl": "https://discord.gg/WTvTbSPknJ",
+  "provider": "unethicalite",
+  "name": "Unethical Auto Login",
+  "description": "Automatically logs in specified account in config",
+  "id": "unethicalautologin-plugin",
+  "releases": [{
+    "date": "2022-07-17",
+    "sha512sum": "EB436574AD044216F23221D9FC12ECB638C1BC09A5B5E62729606AD0F0E03CC77AD2137389B27F64C01C3CCF5E4694559F9225AC7D16D037968D3FA1FD5FECC6",
+    "version": "0.1.1",
+    "url": "https://raw.githubusercontent.com/zmike808/unethicalite-autologin/master/unethical-autologin-0.1.1.jar",
+    "requires": "^1.0.0"
+  }]
+}]
